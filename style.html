@@ -1,0 +1,161 @@
+<style>
+    a {
+        color: black;
+        text-decoration: none;
+    }
+    .post-your-own {
+        display: none;
+    }
+    .box{
+          line-height: 1;
+          width: 90%;
+        margin: 0 auto;
+          border: solid;
+          border-left: 0;
+          border-right: 0;
+          border-color: darkred;
+          height: 75%;
+          overflow: hidden;
+    }
+    .red-text{
+        color: #ee3b32;
+    }
+    .red-text-o{
+        color: #8e3f41;
+    }
+    .footer {
+        width: 90%;
+        margin: 0 auto;
+        font-weight: 900;
+        border-left:solid;
+        padding-left: 7px;
+        border-color: #8e3f41;
+    }
+    .logo{
+        margin-bottom: 20px;
+    }
+    .number {
+        text-align: right;
+        padding-right: 20px;
+    }
+    table tbody tr td:nth-child(1) {
+        font-weight: 700;
+      }
+    table {
+      border-spacing: 1;
+      border-collapse: collapse;
+      background: white;
+      border-radius: 6px;
+      overflow: hidden;
+      max-width: 100%;
+      width: 100%;
+      margin: 0;
+      position: relative;
+    }
+    table * {
+      position: relative;
+    }
+    table td, table th {
+      padding-left: 13px;
+    }
+    table tr {
+      height: 90px;
+      background: #f7fffe;
+      font-size: 20px;
+    }
+    table tbody tr {
+      height: 60px;
+      padding: 15px;
+      border-bottom: 1px solid #646464;
+    }
+    table tbody tr:last-child {
+      border: 0;
+    }
+    table td, table th {
+      text-align: left;
+    }
+    table td.l, table th.l {
+      text-align: right;
+    }
+    table td.c, table th.c {
+      text-align: center;
+    }
+    table td.r, table th.r {
+      text-align: center;
+    }
+
+    @media screen and (max-width: 55.5em) {
+      table {
+        display: block;
+      }
+        .number {
+            text-align: left;
+            padding-right: 20px;
+        }
+      table > *, table tr, table td, table th {
+        display: block;
+      }
+        .logo{
+             width:80%;
+        }
+      table tbody tr {
+        height: auto;
+        padding: 8px 0;
+      }
+      table tbody tr td {
+        padding-left: 45%;
+        margin-bottom: 12px;
+      }
+      table tbody tr td:last-child {
+        margin-bottom: 0;
+      }
+      table tbody tr td:before {
+        position: absolute;
+        font-weight: 700;
+        width: 20%;
+        left: 10px;
+        top: 0;
+      }
+      table tbody tr td:nth-child(1):before {
+        content: "Game";
+      }
+      table tbody tr td:nth-child(2):before {
+        content: "Score";
+      }
+      table tbody tr td:nth-child(3):before {
+        content: "player";
+      }
+      table tbody tr td:nth-child(4):before {
+        content: "Date";
+      }
+      table tbody tr td:nth-child(5):before {
+        content: "Box Type";
+      }
+    }
+body {
+    background: #feedb0;
+/*    background: url('img/bg.jpg');*/
+    background-repeat: no-repeat;
+    background-size: cover;
+  font: 400 20px 'Calibri','Arial';
+  padding: 20px;
+}
+
+.post-your-own {
+  color: white;
+  text-align: center;
+}
+</style>
+</div>
+<div class="footer">
+    <div style="float:right;">
+        <img src="img/logo-gg.png" height="50px"/><img src="img/logo-hsh.png" height="50px"/>
+    </div>
+    <div>
+        <p class="red-text">Post your score at highscorehub.com/hubs/gamesguild<br/><span class="red-text-o">DDREXP.NL</span></p>
+    </div>
+</div>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="scroll.js"></script>
+
